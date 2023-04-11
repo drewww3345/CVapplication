@@ -11,8 +11,9 @@ class PraticalForm extends Component {
         <div>
           <h2>Pratical Experience</h2>
           <label forHTML = "companyname">Company Name<input type='text' id='companyname' name='companyname'></input></label>
-          <label forHTML = "position">Email<input type='text' id='position' name='position'></input></label>
-          <label forHTML = "task">Task<input type='text' id='task' name='task'></input></label>
+          <label forHTML = "position">Position<input type='text' id='position' name='position'></input></label>
+          <label forHTML = "worklocation">Location<input type='text' id='worklocation' name='worklocation'></input></label>
+          <label forHTML = "tenure">Tenure<input type='text' id='tenure' name='tenure'></input></label>
         </div>);
     }
 }

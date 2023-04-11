@@ -9,10 +9,11 @@ class EducationalForm extends Component {
     render(){
         return (
         <div>
-          <h2>General Information</h2>
+          <h2>Educational Information</h2>
           <label forHTML = "schoolname">School Name<input type='text' id='schoolname' name='schoolname'></input></label>
           <label forHTML = "major">Title of Study<input type='text' id='major' name='major'></input></label>
-          <label forHTML = "phonenumber">Phone Number<input type='text' id='phonenumber' name='phonenumber'></input></label>
+          <label forHTML = "schoollocation">Location<input type='text' id='schoollocation' name='schoollocation'></input></label>
+          <label forHTML = "educationyear">Year<input type='text' id='educationyear' name='educationyear'></input></label>
         </div>);
     }
 }
